@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Font Classes*/
+.lexend-100 {
+  font-family: "Lexend", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+.lexend-200 {
+  font-family: "Lexend", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+.lexend-300 {
+  font-family: "Lexend", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.lexend-400 {
+  font-family: "Lexend", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.lexend-500 {
+  font-family: "Lexend", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.lexend-600 {
+  font-family: "Lexend", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.lexend-700 {
+  font-family: "Lexend", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.lexend-800 {
+  font-family: "Lexend", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+.lexend-900 {
+  font-family: "Lexend", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+
+/* body*/
+body{
+  background-color: black;
+}
+
+
+/* P my-Name*/
+.My-Name{
+  color:white;
+  font-size: 4rem;
+  padding-left: 10px;
+  padding-top: 5px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.My-Name span{
+  background: linear-gradient(to right ,#6A1E55,#A64D79);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+}
+
+.My-Name span::before{
+  content: "";
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(to right ,#6A1E55,#A64D79);
+  animation-name: LeftToRigth ;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+
+
+@keyframes LeftToRigth{
+  from{
+    width: 0;
+  }
+  to{
+    width: 100%;
+  }
+}
+
+
+
+/*Khaled Image*/
+.Khaled-Image{
+  width: 500px;
+  height: 500px;
+  margin:0px 10px;
+  border-radius: 5px;
+  filter: blur(5px);
+  float: left;
+}
+
+.Khaled-Image:hover{
+  filter:blur(0px);
+  transition: 1s;
+}
+
+/*About Me*/
+.About-Me{
+  margin: 3px;
+  margin-left: 5px;
+  padding: 10px;
+  color: white;
+  font-size: 3rem;
+}
+
+/*About Me Sofeware Engineering animation*/
+.About-Me p span{
+  color: black;
+  animation-name:LetterAnimation ;
+  animation-iteration-count: infinite;
+}
+.About-Me p span:nth-of-type(1){
+  animation-duration: 3s;
+  animation-delay: 0.1s;
+}
+.About-Me p span:nth-of-type(2){
+  animation-duration: 3s;
+  animation-delay: 0.2s;
+}
+.About-Me p span:nth-of-type(3){
+  animation-duration: 3s;
+  animation-delay: 0.3s;
+}
+.About-Me p span:nth-of-type(4){
+  animation-duration: 3s;
+  animation-delay: 0.4s;
+}
+.About-Me p span:nth-of-type(5){
+  animation-duration: 3s;
+  animation-delay: 0.5s;
+}
+.About-Me p span:nth-of-type(6){
+  animation-duration: 3s;
+  animation-delay: 0.6s;
+}
+.About-Me p span:nth-of-type(7){
+  animation-duration: 3s;
+  animation-delay: 0.7s;
+}
+.About-Me p span:nth-of-type(8){
+  animation-duration: 3s;
+  animation-delay: 0.8s;
+}
+.About-Me p span:nth-of-type(9){
+  animation-duration: 3s;
+  animation-delay: 0.9s;
+}
+.About-Me p span:nth-of-type(10){
+  animation-duration: 3s;
+  animation-delay: 1s;
+}
+.About-Me p span:nth-of-type(11){
+  animation-duration: 3s;
+  animation-delay: 1.1s;
+}
+.About-Me p span:nth-of-type(12){
+  animation-duration: 3s;
+  animation-delay: 1.2s;
+}
+.About-Me p span:nth-of-type(13){
+  animation-duration: 3s;
+  animation-delay: 1.3s;
+}
+.About-Me p span:nth-of-type(14){
+  animation-duration: 3s;
+  animation-delay: 1.4s;
+}
+.About-Me p span:nth-of-type(15){
+  animation-duration: 3s;
+  animation-delay: 1.5s;
+}
+.About-Me p span:nth-of-type(16){
+  animation-duration: 3s;
+  animation-delay: 1.6s;
+}
+.About-Me p span:nth-of-type(17){
+  animation-duration: 3s;
+  animation-delay: 1.7s;
+}
+.About-Me p span:nth-of-type(18){
+  animation-duration: 3s;
+  animation-delay: 1.9s;
+}
+.About-Me p span:nth-of-type(19){
+  animation-duration: 3s;
+  animation-delay: 2s;
+}
+
+
+@keyframes LetterAnimation{
+  0%{
+    color :#A64D79;
+  }
+  50%{
+    color: #6A1E55;
+  }
+  100%{
+    color: #3B1C32;
+  }
+}
+
+
+
+
+
+/*  Nav  */
+
+.nav{
+  background-color: black;
+  width: 1000px;
+  height: 70px;
+  position: relative;
+  left: 350px;
+  border: solid;
+  border-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  margin: 4px;
+}
+.nav .menu{
+  background: linear-gradient(to right ,#6A1E55,#A64D79);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+  margin-left: 2px;
+  position: absolute;
+  top: 5px;
+}
+
+
+
+.nav ul{
+  position: absolute;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 15px ;
+}
+
+.nav ul li{
+  margin-bottom: 20px;
+  background: linear-gradient(to right ,#6A1E55,#A64D79);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 40px;
+}
+
+
+.nav a{
+  text-decoration: none;
+  font-size: 3rem;
+}
+
+@media (max-width:1350px){
+    .nav{
+      left:150px;
+    }
+}
+@media (max-width:1080px){
+    .nav{
+      left:0px;
+    }
+}
+@media (max-width:950px){
+    .nav{
+      height: 150px;
+      width: 700px;
+    }
+
+    .nav ul li:nth-of-type(3){
+      position: absolute;
+      top: 100%;
+      left: 0px;
+    }
+}
+@media (max-width:650px){
+    .nav{
+      height: 300px;
+      width: 470px;
+    }
+
+    .nav ul {
+      display: block;
+    }
+    
+}
+@media (max-width:500px){
+    .nav{
+      height: 400px;
+      width: 400px;
+    }
+
+    .nav ul {
+      display: block;
+      position: absolute;
+      top: 100px;
+      margin-left: 0px;
+      padding-left: 0px;
+      left: 0px;
+    }
+    .nav ul li{
+      margin-left: 0px;
+    }
+    .Khaled-Image{
+      width: 370px;
+      height: 370px;
+    }
+    
+}
+
+
